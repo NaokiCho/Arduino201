@@ -5,6 +5,7 @@ HCSR04 Library Methods
 
 .readVal(); 
 // Returns an integer, 
+
 // the distance recorded by sonar in cm
 
 .assignPin(<integer>);
