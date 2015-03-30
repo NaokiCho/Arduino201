@@ -32,7 +32,6 @@ int HCSR04::readVal(){
   // of the ping to the reception of its echo off of an object.
   pinMode(trigEchoPin, INPUT);
   duration = pulseIn(trigEchoPin, HIGH, 3480);
-  delay(80);
   if(duration==0) 
     return 60;
   return duration / 29 / 2;
